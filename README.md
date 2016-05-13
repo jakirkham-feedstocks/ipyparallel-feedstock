@@ -5,7 +5,7 @@ Home: http://ipython.org
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Interactive Parallel Computing with IPython
 
@@ -69,6 +69,7 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ipyparallel-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/ipyparallel-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/ipyparallel-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ipyparallel-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/ipyparallel-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/ipyparallel-feedstock/branch/master)
