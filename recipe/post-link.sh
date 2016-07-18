@@ -4,5 +4,4 @@
 
 # Install the ipyparallel widget.
 "${PREFIX}/bin/jupyter" serverextension enable --sys-prefix --py ipyparallel > /dev/null 2>&1
-"${PREFIX}/bin/jupyter" nbextension install --sys-prefix --py ipyparallel > /dev/null 2>&1
 "${PREFIX}/bin/jupyter" nbextension enable --sys-prefix --py ipyparallel > /dev/null 2>&1

@@ -11,7 +11,9 @@ source:
 
 build:
   number: 1
-  script: pip install --no-deps .
+  script:
+    - pip install --no-deps .
+    - jupyter nbextension install --sys-prefix --py ipyparallel
 
 requirements:
   build:
@@ -26,6 +28,12 @@ requirements:
     - jupyter_client
     - ipykernel
     - tornado >=4
+    # To install the notebook extension.
+    #
+    # We don't require this to install/use
+    # ipyparallel though. So we don't make
+    # it a run-time requirement.
+    - notebook
 
   run:
     - python

@@ -7,7 +7,6 @@
 
 :: Install the ipyparallel widget.
 "%PREFIX%\Scripts\jupyter" nbextension disable --sys-prefix --py ipyparallel > NUL 2>&1 && if errorlevel 1 exit 1
-"%PREFIX%\Scripts\jupyter" nbextension uninstall --sys-prefix --py ipyparallel > NUL 2>&1 && if errorlevel 1 exit 1
 "%PREFIX%\Scripts\jupyter" serverextension disable --sys-prefix --py ipyparallel > NUL 2>&1 && if errorlevel 1 exit 1
 
 :End
