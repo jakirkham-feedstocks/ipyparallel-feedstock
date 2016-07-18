@@ -10,12 +10,13 @@ source:
   sha256: c46cd3bad50bbe12106257241d671ce6edb3faca2ced54ed001b8f1d579720f0
 
 build:
-  number: 0
+  number: 1
   script: pip install --no-deps .
 
 requirements:
   build:
     - python
+    - pip
     - futures               # [py<32]
     - decorator
     - tornado >=4
