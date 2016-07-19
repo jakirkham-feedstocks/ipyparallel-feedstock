@@ -47,6 +47,9 @@ requirements:
     - ipykernel
 
 test:
+  requires:
+    - notebook
+
   imports:
     - ipyparallel
     - ipyparallel.apps
