@@ -10,7 +10,7 @@ source:
   sha256: c46cd3bad50bbe12106257241d671ce6edb3faca2ced54ed001b8f1d579720f0
 
 build:
-  number: 1
+  number: 2
   script:
     - pip install --no-deps .
     - jupyter nbextension install --sys-prefix --py ipyparallel
