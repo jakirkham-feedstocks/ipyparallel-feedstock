@@ -22,6 +22,7 @@ requirements:
     - futures               # [py<32]
     - decorator
     - tornado >=4
+    - python-dateutil >=2.1
     - pyzmq >=13
     - ipython_genutils
     - ipython >=4
@@ -40,6 +41,7 @@ requirements:
     - futures               # [py<32]
     - decorator
     - tornado >=4
+    - python-dateutil >=2.1
     - pyzmq >=13
     - ipython_genutils
     - ipython >=4
