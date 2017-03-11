@@ -21,7 +21,7 @@ requirements:
   build:
     - python
     - pip
-    - futures               # [py<32]
+    - futures               # [py2k]
     - decorator
     - tornado >=4
     - python-dateutil >=2.1
@@ -39,7 +39,7 @@ requirements:
 
   run:
     - python
-    - futures               # [py<32]
+    - futures               # [py2k]
     - decorator
     - tornado >=4
     - python-dateutil >=2.1
